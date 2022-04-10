@@ -7,4 +7,4 @@ const persona = {
     pasatiempos: ['Ver anime', 'Programar', 'Ver TV']
 }
 
-document.write(`<p>${Object.keys(persona)}</p>`);
+document.write(`<p>Persona{${Object.keys(persona)}}</p>`);
