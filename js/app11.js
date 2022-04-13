@@ -12,5 +12,6 @@ arreglo.forEach(arr => {
 array += ']';
 
 document.write(`<p>${array}</p>`);
-document.write(`<p>Ultimo valor del vector: ${arreglo[arreglo.length - 1]}</p>`);
+document.write(`<p>Primer valor del vector: ${arreglo[0]}</p>`);
 document.write(`<p>Valor central del vector: ${arreglo[valorCentro]}</p>`);
+document.write(`<p>Ultimo valor del vector: ${arreglo[arreglo.length - 1]}</p>`);

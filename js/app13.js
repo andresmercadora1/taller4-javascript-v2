@@ -14,8 +14,8 @@ document.write(`<p>Posición de las frutas [`);
 arrays.forEach((arr, i) => {
 
     frutas.forEach(fruta => {
-        if(arr == fruta) {
-            document.write(`${arr}: ${i}, `);
+        if(arr === fruta) {
+            document.write(`${arr}: posición ${i}, `);
         }
     });
 
@@ -27,7 +27,7 @@ arrays.forEach((arr, i) => {
 
     verduras.forEach(verdura => {
         if(arr == verdura) {
-            document.write(`${arr}: ${i}, `);
+            document.write(`${arr}: posición ${i}, `);
         }
     });
 

@@ -10,6 +10,7 @@ for(let arr of arreglo) {
 
 document.write(`<p><b>Arreglo aleatoriamente</b></p>`);
 
+
 for(let i in arreglo) {
     let random= Math.floor(Math.random() * arreglo.length);
    
